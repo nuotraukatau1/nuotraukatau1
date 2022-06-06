@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+    min-height: 100vh;
+background-image: url(Pictures/123.jpg);
+background-position: left;
+background-size: contain;
+background-repeat: no-repeat;
+background-color: #e8dde3;
+background-size:contain;
+background-position: left, right;
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content:space-between;
+    align-items: center;
+}
+nav img {
+    width: 200px;
+    min-height: 80px;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
